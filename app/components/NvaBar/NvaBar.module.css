@@ -1,0 +1,35 @@
+.navBarConatiner{
+    display: flex;
+    background-color: #000;
+    width: 100vw;
+    height: 90px;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    z-index: 1000;
+}
+
+.linkBar{
+    display: flex;
+    width: 300px;
+    font-size: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.linkBar li a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+@media only screen and (max-width: 1020px) {
+    .linkBar{
+        display: none;
+    }
+
+    .search{
+        display: none;
+    }
+}
+

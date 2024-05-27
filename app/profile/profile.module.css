@@ -1,0 +1,26 @@
+.profile{
+    display: flex;
+    color: #fff;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.loginAndLogout{
+    height: auto;
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid gray;
+    position: absolute;
+    right: 70px;
+}
+
+.buttonProfile{
+    height: 31px;
+    width: 90px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}

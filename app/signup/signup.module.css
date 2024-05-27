@@ -1,0 +1,52 @@
+.signupContainer{
+    height: 86vh;
+
+
+    .formName{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .signupForm{
+        text-align: center;
+        gap: 20px;
+
+        .labelSize{
+            font-size: 25px;
+        }
+
+        .inputSize{
+            height: 45px;
+            width: 350px;
+            outline: none;
+            border: none;
+            border-radius: 10px;
+            padding: 15px;
+            font-size: 25px;
+        }
+
+        .buttonSubmit{
+            height: 40px;
+            width: 100px;
+            margin-top: 15px;
+            font-size: 20px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        .containerDiv{
+            margin: 15px;
+        }
+    }
+
+    .alreadyExit{
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+.error{
+    text-align: center;
+    color: red;
+}

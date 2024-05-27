@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif, serif, monospace;
+}
+
+
+.childernContainer{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding-top: 100px;
+
+    height: 100%;
+    width: 100%;
+
+    background-color: #3c3939;
+    color: #fff;
+}

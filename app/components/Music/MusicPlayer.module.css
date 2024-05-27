@@ -1,0 +1,18 @@
+.musicPlayer{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+    width: 100vw;
+    height: 90px;
+    background-color: orange;
+    color: #000;
+
+    position: fixed;
+    bottom: 0;
+}
+
+.image{
+    height: 50px;
+    width: 50px;
+}

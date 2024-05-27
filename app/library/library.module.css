@@ -1,0 +1,39 @@
+.library{
+    height: 88vh;
+}
+.mainSection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+    padding-bottom: 100px;
+    gap: 70px;
+}
+
+.cardContainer{
+    width: 170px;
+    height: 210px;
+    display: flex;
+    align-items: center;
+
+    
+    .images{
+        height: 170px;
+        width: 170px;
+        border-radius: 10px;
+        overflow: hidden;
+
+        .image{
+            height:170px;
+            width: 170px;
+        }
+    }
+
+    .detailes{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 5px;
+        margin-top: 5px;
+    }
+}
